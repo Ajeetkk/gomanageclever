@@ -1,0 +1,240 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap';
+
+body{
+  background-color: #F3F6F9;
+}
+
+h1 {
+  color: #333333;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 58px;
+  margin-bottom: 48px;
+}
+.logoWrapper{
+  border-bottom: 1px solid #fff;
+  margin-bottom: 54px;
+}
+.logo {
+  height: 79px;
+  padding-top: 25px;
+  width: 100%;  
+}
+.logo svg{
+  width: 100%;
+}
+  .icon-list{
+  background-image: url('../assets/icon_view_more_24.svg');  
+  background-repeat: no-repeat;  
+  height: 18px;
+  margin-right: 10px;
+  width: 18px;   
+  float: left;  
+}
+.welcomenote {
+  color: #353535;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 48px;
+  width: 74%;
+}
+.landingPageView .btn-primary{
+  width: auto;
+}
+.watchTrailer .modal-xl{
+  max-width: 800px;
+}
+.watchTrailer .modal-content{
+  background: transparent !important;
+  border: 0;
+  padding: 0;
+  text-align: center;
+}
+.watchTrailer iframe{
+  width: 800px;
+  height: 400px;
+}
+.versionTxt {
+  color: #353535;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  margin-bottom: 16px;  
+}.side-bar{
+  height: 938px;
+  width: 100%;
+  opacity: 100%;
+  position: relative;
+  padding: 0;    
+}
+.side-bar > .row{
+  margin: 0;
+}
+
+.link-font, .link-font:hover{
+  font: bold;
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-size: 18px; 
+  line-height: 21px;  
+  text-decoration: none;
+}.menu-item{
+  display: flex;
+  flex-direction: row;
+  height: 64px;
+  align-items: center;
+  margin-bottom: 16px;
+  padding: 0;
+}
+.menu-item-selected{
+  background: rgba(255,255,255,.3);
+}
+.menu-item > svg{
+  margin: 0 24px;
+}.feedback-terms-of-us {
+	height: 20px;
+	width: 100px;
+	color: #FFFFFF;
+	font-family: Roboto;
+  font-size: 14px;
+  font: bold;
+	line-height: 21px;
+  text-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+  display: block;
+  position: relative;
+  display: block;    
+}.help-link{  
+  position: absolute;
+  bottom: 0;  
+  margin-bottom: 32.5px;
+  margin-left: 32px;
+}
+.btn.btn-primary {
+  border-radius: 4px;
+  background-color: #00c6aa;
+  border-color: #00c6aa;
+  font-size: 14px;
+  height: 32px;
+  line-height: 16px;
+  margin-right: 16px;
+  padding: 8px 16px;
+}.btn.btn-primary:hover {
+  background-color: #00c6aa;
+  border-color: #00c6aa;
+}.btn.btn-primary:active {
+  background-color: #00c6aa !important;
+  border-color: #00c6aa !important;
+}.btn.btn-primary:focus {
+  box-shadow: none;
+}.btn.btn-link.watchLink {
+  color:#0020C3;
+  background-image: url('../assets/icon_view_more_24.svg');
+  margin-top: 52px;
+  padding-left: 30px;
+  background-repeat: no-repeat;
+  background-position: 3px;
+}.btn.btn-link.watchLink:hover, .btn.btn-link.watchLink:active {
+  color:#0020C3;
+  text-decoration: none;
+}.gu-transit {
+  opacity:0.2 !important;
+  border: 2px dashed #000 !important;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=20)" !important;
+  filter:alpha(opacity=20) !important;
+} 
+.padingLeft{
+padding-left: 16px;
+}
+.padingRight{
+  padding-right: 0;
+}
+.fontSizeTxt,.fontSizeTxt:hover {
+  font-size: 16px;
+  color:#0020C3;
+  text-decoration: none;
+}
+.fontSizeTxt svg{
+  margin-left: 8px;
+}
+.fontSizeTxt svg path{
+  fill: #0020C3;
+}
+.dashboard-menu > .col-md-3{
+  background-color: #0020C3;
+  flex: 0 0 18%;
+  max-width: 18%;
+  padding: 0;
+}
+.dashboard-menu > .col-md-9{
+  flex: 0 0 82%;
+  max-width: 82%;
+}
+
+.appSelection .checkBoxcontainer {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  color: #353535;
+  cursor: pointer;
+  display: block;
+  font-size: 0.75rem;
+  font-weight: normal;
+  margin-bottom: 14px !important;
+  padding-left: 32px;
+  position: relative;
+  user-select: none;
+}
+.appSelection .checkBoxcontainer.checkBoxChecked {
+  font-weight: bold;
+}
+.appSelection .checkBoxcontainer input {
+  cursor: pointer;
+  height: 0;
+  opacity: 0;
+  position: absolute;
+  width: 0;
+}
+.appSelection .checkBoxcontainer input:checked ~ .checkmark {
+  background-color: #5dd0b6;
+  border-color: #5dd0b6;
+  border-radius: 4px;
+}
+.appSelection .checkBoxcontainer input:checked ~ .checkmark:after {
+  display: block;
+}
+.appSelection .checkBoxcontainer .checkmark::after {
+  background-image: url("../assets/tickmark.svg");
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  height: 8px;
+  left: 1px;
+  top: 2px;
+  width: 10px;
+}
+.appSelection .checkBoxcontainer label {
+  cursor: pointer;
+  font-size: 16px;
+}
+.appSelection .checkBoxcontainer span {
+  color: #353535;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal !important;
+  line-height: 19px;
+  margin-top: 1px;
+}
+.appSelection .checkBoxcontainer .checkmark {
+  background-color: transparent;
+  border: 2px solid #979797;
+  border-radius: 1px;
+  height: 16px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 16px;
+}
+.appSelection .checkBoxcontainer .checkmark::after {
+  content: "";
+  display: none;
+  position: absolute;
+}

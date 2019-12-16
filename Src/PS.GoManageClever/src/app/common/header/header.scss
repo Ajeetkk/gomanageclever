@@ -1,0 +1,57 @@
+$user-bg: #58BCAB;
+.header-comp {
+  align-items: center;
+  height: 80px;
+  background-color: #ffffff;  
+  position: relative;
+  background-color: white;
+  border-bottom: 1px solid #e7e7e7;  
+  padding-left: 1px;
+}
+.icon_sidebar {
+  cursor: pointer;
+  padding-left: 0 
+}.Page-Header {
+  display: inline-block;
+  height: 36px;
+  color: #353535;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 36px;  
+  margin-left: 32px;
+  margin-bottom: 0;
+}.btn-manage-widget{
+    background-color:#ffffff;
+    border: 2px solid #0020C3;
+    border-radius: 4px;
+    color: #0020C3;
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    height: 30px;
+    width: 136px;
+    font-weight: bold;
+}.user-Profile{
+    float: right;
+    background-color: $user-bg;
+    border-radius: 50%;
+    color: #FFFFFF;
+    font-size: 16px;    
+    height: 32px;
+    line-height: 28px;   
+    text-align: center;    
+    width: 32px; 
+    margin-right: 2px;
+    margin-left: 44px;
+}.sid-bar{
+  display: inherit;
+    margin-left: 0px;
+}
+.manage-widgets{
+  text-align: right;
+}
+.pad0{
+  padding: 0;
+}

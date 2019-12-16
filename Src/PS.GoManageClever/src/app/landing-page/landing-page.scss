@@ -1,0 +1,19 @@
+.landingPageView{
+    .logo{
+        background-image: url("../../assets/GM_logo.svg");
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        background-size: 20%;
+        height: auto;
+        margin-top: 48px;
+        margin-bottom: 68px;
+    }
+    h1{
+        color: #333333;
+        font-family: Roboto;
+        font-size: 48px;
+        font-weight: bold;
+        line-height: 58px;
+        margin-bottom: 48px;
+    }
+}
